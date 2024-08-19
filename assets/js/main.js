@@ -146,6 +146,12 @@
 			$navPanel = $(
 				'<div id="navPanel">' +
 					'<nav>' +
+						'<ul style="list-style-type: none; padding: 0; margin: 0;">' +
+							'<li style="margin: 10px 0;"><a href="#" style="text-decoration: none; color: #000; font-size: 18px;">Introduction</a></li>' +
+							'<li style="margin: 10px 0;"><a href="#header" style="text-decoration: none; color: #000; font-size: 18px;">Projects</a></li>' +
+							'<li style="margin: 10px 0;"><a href="#cheader" style="text-decoration: none; color: #000; font-size: 18px;">Certifications</a></li>' +
+							'<li style="margin: 10px 0;"><a href="#cfooter" style="text-decoration: none; color: #000; font-size: 18px;">About</a></li>' +
+						'</ul>' +
 					'</nav>' +
 					'<a href="#navPanel" class="close"></a>' +
 				'</div>'
